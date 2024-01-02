@@ -1,18 +1,33 @@
+:root {
+  --color-primary: #34c94b;
+  --color-black: #121212;
+  --color-white: #ffffff;
+}
+
 *,
-*::before,
-*::after{
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
-*{
+* {
   margin: 0;
 }
-html,body{
-  height:100%;
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
 
-body{
-  font-family: 'Poppins',sans-serif;
+body {
+  font-family: "Poppins", "sans-serif";
   line-height: 1.5;
-  -webkit-font-smoothing : antialised;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.swiper-slide {
+  width: auto !important;
 }
