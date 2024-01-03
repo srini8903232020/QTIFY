@@ -5,7 +5,7 @@ import Carousel from "../Carousel/Carousel";
 import Filters from "../Filters/Filters";
 
 function Section({ type, data, filterSource }) {
-  let [toggelView, setToggleView] = useState(false);
+  let [toggelView, setToggleView] = useState(true);
   let [filters, setFilters] = useState([{ key: "all", label: "All" }]);
   const [selectedFilterIndex, setSelectedFilterIndex] = useState(0);
   console.log(data);
