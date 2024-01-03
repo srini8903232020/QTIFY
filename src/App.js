@@ -21,7 +21,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Outlet context={{ data: { topAlbums, newAlbums, songs } }} />
+      {/* <Outlet context={{ data: { topAlbums, newAlbums, songs } }} /> */}
     </div>
   );
 }
