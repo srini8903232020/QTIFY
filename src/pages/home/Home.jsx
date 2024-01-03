@@ -10,8 +10,8 @@ function Home() {
   console.log(data);
   return (
     <div>
-      {/* <Hero />
-      <Section type="Top Albums" data={data.topAlbums} />
+      <Hero />
+      {/* <Section type="Top Albums" data={data.topAlbums} />
       <Section type="New Albums" data={data.newAlbums} />
       <Section type="Songs" data={data.songs} filterSource={fetchGenres} /> */}
     </div>
