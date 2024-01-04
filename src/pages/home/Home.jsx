@@ -13,7 +13,7 @@ function Home() {
       <Hero />
       <Section type="Top Albums" data={data.topAlbums} />
       <Section type="New Albums" data={data.newAlbums} />
-      {/* <Section type="Songs" data={data.songs} filterSource={fetchGenres} /> */}
+      <Section type="Songs" data={data.songs} filterSource={fetchGenres} />
     </div>
   );
 }
